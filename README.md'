@@ -1,0 +1,62 @@
+# CEI Week 1 Task - Data Exploration and Cleaning using Pandas
+
+## Objective
+Learn Python basics and perform basic data exploration and cleaning using Pandas.
+
+## Dataset
+The project uses the provided Combined Dataset in CSV format.
+
+## Tasks Performed
+
+### 1. Load Dataset
+- Loaded CSV dataset into a Pandas DataFrame.
+
+### 2. Data Exploration
+- Viewed first and last records using `head()` and `tail()`
+- Checked dataset shape
+- Examined column names
+- Analyzed data types
+
+### 3. Missing Value Handling
+- Identified missing values using `isnull()`
+- Filled missing numerical values
+- Filled missing categorical values
+
+### 4. Data Filtering and Column Selection
+- Filtered records based on conditions
+- Selected specific columns for analysis
+
+### 5. Duplicate Handling
+- Checked for duplicate records
+- Removed duplicates if present
+
+### 6. Feature Engineering
+- Created a derived column:
+  - `amount_saved = initial_price - final_price`
+
+### 7. Export Cleaned Dataset
+- Saved cleaned data as a new CSV file.
+
+## Files Included
+
+- `Combined_dataset.csv` - Original dataset
+- `cleaned_combined_dataset.csv` - Cleaned dataset
+- `Task1.ipynb` - Jupyter Notebook containing all analysis and cleaning steps
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
+- VS Code
+
+## Learning Outcomes
+
+- Data loading and exploration
+- Data cleaning
+- Missing value handling
+- Data filtering
+- Duplicate removal
+- Feature engineering
+- Exporting processed data
