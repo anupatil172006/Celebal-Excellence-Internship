@@ -1,0 +1,62 @@
+USE ShopEase;
+
+-- Q24. Classifying the products into price tiers
+SELECT
+PRODUCT_NAME,UNIT_PRICE,
+CASE
+	WHEN UNIT_PRICE < 1000 THEN 'Budget'
+	WHEN UNIT_PRICE BETWEEN 1000 AND 3000 THEN 'Mid-Range'
+	WHEN UNIT_PRICE > 3000 THEN 'Premium'
+END AS Price_Tier
+FROM PRODUCTS;
+
+/* Q25. Displaying how many orders are delivered
+   vs not delivered */
+   SELECT
+   SUM( CASE
+			WHEN ORDER_STATUS = 'Delivered' THEN 1
+			ELSE 0
+		END) AS Delivered_Orders,
+   SUM( CASE
+			WHEN ORDER_STATUS != 'Delivered' THEN 1
+			ELSE 0
+		END) AS Not_Delivered_Orders
+   FROM ORDERS;
+
+/* Q27. */
+  BEGIN TRY
+
+    BEGIN TRANSACTION;
+    INSERT INTO ORDERS
+    (ORDER_ID, CUSTOMER_ID, ORDER_DATE, ORDER_STATUS, TOTAL_AMOUNT)
+    VALUES
+    (1011, 102, GETDATE(), 'Pending', 1598.00);
+
+    INSERT INTO ORDER_ITEMS
+    (ITEM_ID, ORDER_ID, PRODUCT_ID, QUANTITY, DISCOUNT_PCT)
+    VALUES
+    (16, 1011, 201, 1, 10),
+    (17, 1011, 202, 2, 5);
+
+    UPDATE PRODUCTS
+    SET STOCK_QTY = STOCK_QTY - 1
+    WHERE PRODUCT_ID = 201;
+
+    UPDATE PRODUCTS
+    SET STOCK_QTY = STOCK_QTY - 2
+    WHERE PRODUCT_ID = 202;
+
+    COMMIT TRANSACTION;
+
+    PRINT 'Transaction completed successfully.';
+
+END TRY
+
+BEGIN CATCH
+
+    ROLLBACK TRANSACTION;
+
+    PRINT 'Transaction failed.';
+    PRINT ERROR_MESSAGE();
+
+END CATCH;

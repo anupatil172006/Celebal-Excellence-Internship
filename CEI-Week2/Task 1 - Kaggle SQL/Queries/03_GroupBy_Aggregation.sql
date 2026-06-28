@@ -1,0 +1,25 @@
+USE CEI_WEEK2;
+
+--Total sales by region 
+SELECT REGION, SUM(SALES) AS TotalSales
+FROM SUPERSTORE
+GROUP BY REGION
+ORDER BY TotalSales DESC;
+
+--Total sales by catrgory
+SELECT CATEGORY, SUM(SALES) AS TotalSales
+FROM SUPERSTORE
+GROUP BY CATEGORY
+ORDER BY TotalSales DESC;
+
+--Total quantity sold by category
+SELECT CATEGORY, SUM(QUANTITY) AS TotalQuantity
+FROM SUPERSTORE
+GROUP BY CATEGORY
+ORDER BY TotalQuantity DESC;
+
+--Average profit by the category
+SELECT CATEGORY, AVG(PROFIT) AS AverageProfit
+FROM SUPERSTORE
+GROUP BY CATEGORY
+ORDER BY AverageProfit;

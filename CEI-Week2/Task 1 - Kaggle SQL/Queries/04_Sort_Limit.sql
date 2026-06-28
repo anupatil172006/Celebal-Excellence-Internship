@@ -1,0 +1,20 @@
+USE CEI_WEEK2;
+
+--Selecting top 10 products by sales
+SELECT TOP 10 [PRODUCT_NAME] , SUM(SALES) AS TotalSales 
+FROM SUPERSTORE
+GROUP BY [PRODUCT_NAME]
+ORDER BY TotalSales DESC ;
+
+--Selecting Top 10 categories by sales
+SELECT CATEGORY, SUM(SALES) AS TotalSales
+FROM SUPERSTORE
+GROUP BY CATEGORY
+ORDER BY TotalSales DESC;
+
+-- Selecting top 10 customers by sales
+
+SELECT TOP 10 CUSTOMER_NAME, SUM(SALES) AS TotalSales
+FROM SUPERSTORE 
+GROUP BY CUSTOMER_NAME
+ORDER BY TotalSales;

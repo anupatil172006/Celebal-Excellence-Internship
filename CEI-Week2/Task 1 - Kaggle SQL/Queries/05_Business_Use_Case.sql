@@ -1,0 +1,53 @@
+USE CEI_WEEK2;
+
+
+--Monthly sales trend
+SELECT 
+YEAR(ORDER_DATE) AS OrderYear,
+MONTH(ORDER_DATE) AS OrderMonth,
+SUM(SALES) AS TotalSales
+FROM SUPERSTORE
+GROUP BY YEAR(ORDER_DATE), MONTH(ORDER_DATE)
+ORDER BY OrderYear , OrderMonth;
+
+--Monthly count of orders
+SELECT 
+YEAR(ORDER_DATE) AS OrderYear,
+MONTH(ORDER_DATE) AS OrderMonth,
+COUNT(DISTINCT ORDER_ID) AS TotalOrders
+FROM SUPERSTORE
+GROUP BY YEAR(ORDER_DATE), MONTH(ORDER_DATE)
+ORDER BY OrderYear, OrderMonth;
+
+-- Displaying top 10 customers by total sales
+SELECT TOP 10
+CUSTOMER_NAME ,
+SUM(SALES) AS TotalSales
+FROM SUPERSTORE
+GROUP BY CUSTOMER_NAME
+ORDER BY TotalSales DESC;
+
+--Displaying duplicate order ID's
+SELECT 
+ORDER_ID,
+COUNT(*)AS DuplicateCount
+FROM SUPERSTORE
+GROUP BY ORDER_ID
+HAVING COUNT(*)>1
+ORDER BY DuplicateCount DESC;
+
+--Displaying top 10 states by sales
+SELECT TOP 10
+STATE,
+SUM(SALES) AS TotalSales
+FROM SUPERSTORE
+GROUP BY STATE
+ORDER BY TotalSales DESC
+
+--Displaying top 10 sub categories by sales
+SELECT TOP 10
+SUB_CATEGORY ,
+SUM(SALES) AS TotalSales
+FROM SUPERSTORE 
+GROUP BY SUB_CATEGORY
+ORDER BY TotalSales DESC;
