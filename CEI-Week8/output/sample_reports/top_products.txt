@@ -1,0 +1,11 @@
+===== TOP 10 PRODUCTS =====
+Product: Table | Units Sold: 52 | Revenue: ₹384,808.31
+Product: Shoes | Units Sold: 38 | Revenue: ₹295,999.55
+Product: Notebook | Units Sold: 38 | Revenue: ₹284,595.04
+Product: Table | Units Sold: 45 | Revenue: ₹250,443.94
+Product: Jeans | Units Sold: 31 | Revenue: ₹229,152.44
+Product: Speaker | Units Sold: 30 | Revenue: ₹226,526.64
+Product: Table | Units Sold: 29 | Revenue: ₹224,297.45
+Product: Cap | Units Sold: 30 | Revenue: ₹216,171.72
+Product: Curtains | Units Sold: 29 | Revenue: ₹212,430.18
+Product: Sql Guide | Units Sold: 29 | Revenue: ₹202,816.11

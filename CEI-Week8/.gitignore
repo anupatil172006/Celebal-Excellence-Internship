@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SQLite temporary files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Operating system files
+.DS_Store
+Thumbs.db

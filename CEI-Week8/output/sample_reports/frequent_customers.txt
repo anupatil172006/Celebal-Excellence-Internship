@@ -1,0 +1,11 @@
+===== MOST FREQUENT CUSTOMERS =====
+Customer ID: C0086 | Name: Vanessa Warren | Orders: 6 | Total Spent: ₹279,379.71
+Customer ID: C0028 | Name: John Lewis | Orders: 6 | Total Spent: ₹259,990.38
+Customer ID: C0059 | Name: Colleen Brock | Orders: 6 | Total Spent: ₹216,982.33
+Customer ID: C0364 | Name: Suzanne Yang | Orders: 6 | Total Spent: ₹208,990.36
+Customer ID: C0182 | Name: Paula Shaw | Orders: 5 | Total Spent: ₹266,029.24
+Customer ID: C0388 | Name: Yvonne Dickson | Orders: 5 | Total Spent: ₹265,314.75
+Customer ID: C0472 | Name: Tiffany Cox | Orders: 5 | Total Spent: ₹260,256.72
+Customer ID: C0242 | Name: Breanna Gilbert | Orders: 5 | Total Spent: ₹214,761.39
+Customer ID: C0058 | Name: Michael Snyder | Orders: 5 | Total Spent: ₹204,921.05
+Customer ID: C0499 | Name: Jose Vaughan | Orders: 5 | Total Spent: ₹185,296.53

@@ -1,0 +1,4 @@
+===== CUSTOMER TYPE ANALYSIS =====
+Type: PREMIUM | Customers: 167 | Orders: 329 | Revenue: ₹10,391,248.48
+Type: REGULAR | Customers: 172 | Orders: 310 | Revenue: ₹10,027,398.24
+Type: VIP | Customers: 161 | Orders: 314 | Revenue: ₹9,878,768.11

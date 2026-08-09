@@ -1,0 +1,6 @@
+===== ORDER STATUS ANALYSIS =====
+Status: DELIVERED | Orders: 223 | Percentage: 22.3%
+Status: RETURNED | Orders: 203 | Percentage: 20.3%
+Status: PLACED | Orders: 200 | Percentage: 20.0%
+Status: CANCELLED | Orders: 200 | Percentage: 20.0%
+Status: SHIPPED | Orders: 174 | Percentage: 17.4%

@@ -1,0 +1,11 @@
+===== TOP 10 CUSTOMERS =====
+Customer ID: C0086 | Name: Vanessa Warren | Total Spent: ₹279,379.71
+Customer ID: C0182 | Name: Paula Shaw | Total Spent: ₹266,029.24
+Customer ID: C0388 | Name: Yvonne Dickson | Total Spent: ₹265,314.75
+Customer ID: C0472 | Name: Tiffany Cox | Total Spent: ₹260,256.72
+Customer ID: C0028 | Name: John Lewis | Total Spent: ₹259,990.38
+Customer ID: C0089 | Name: Vincent King | Total Spent: ₹259,064.38
+Customer ID: C0372 | Name: Angela Davis | Total Spent: ₹231,352.42
+Customer ID: C0059 | Name: Colleen Brock | Total Spent: ₹216,982.33
+Customer ID: C0242 | Name: Breanna Gilbert | Total Spent: ₹214,761.39
+Customer ID: C0364 | Name: Suzanne Yang | Total Spent: ₹208,990.36

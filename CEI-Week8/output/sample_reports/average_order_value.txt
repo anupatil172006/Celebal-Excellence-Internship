@@ -1,0 +1,4 @@
+===== AVERAGE ORDER VALUE =====
+Total Orders: 948
+Total Revenue: ₹32,040,270.40
+Average Order Value: ₹33,797.75

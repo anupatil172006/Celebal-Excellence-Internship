@@ -1,0 +1,26 @@
+===== MONTHLY SALES =====
+Month: 2024-08 | Total Sales: ₹1,172,918.11
+Month: 2024-09 | Total Sales: ₹1,029,603.25
+Month: 2024-10 | Total Sales: ₹1,327,185.50
+Month: 2024-11 | Total Sales: ₹1,220,912.77
+Month: 2024-12 | Total Sales: ₹1,183,394.13
+Month: 2025-01 | Total Sales: ₹1,374,078.85
+Month: 2025-02 | Total Sales: ₹1,495,210.28
+Month: 2025-03 | Total Sales: ₹1,246,573.98
+Month: 2025-04 | Total Sales: ₹1,271,313.56
+Month: 2025-05 | Total Sales: ₹1,595,100.50
+Month: 2025-06 | Total Sales: ₹1,794,177.52
+Month: 2025-07 | Total Sales: ₹1,168,419.84
+Month: 2025-08 | Total Sales: ₹1,369,097.05
+Month: 2025-09 | Total Sales: ₹1,916,754.89
+Month: 2025-10 | Total Sales: ₹1,923,749.78
+Month: 2025-11 | Total Sales: ₹1,139,626.23
+Month: 2025-12 | Total Sales: ₹1,104,914.52
+Month: 2026-01 | Total Sales: ₹1,298,129.33
+Month: 2026-02 | Total Sales: ₹992,683.13
+Month: 2026-03 | Total Sales: ₹1,635,588.34
+Month: 2026-04 | Total Sales: ₹1,755,767.28
+Month: 2026-05 | Total Sales: ₹944,444.45
+Month: 2026-06 | Total Sales: ₹1,088,823.01
+Month: 2026-07 | Total Sales: ₹722,426.16
+Month: 2026-08 | Total Sales: ₹269,377.94

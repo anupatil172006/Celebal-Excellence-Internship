@@ -1,0 +1,5 @@
+===== SALES BY REGION =====
+Region: SOUTH | Total Sales: ₹9,478,257.64
+Region: WEST | Total Sales: ₹7,858,149.61
+Region: EAST | Total Sales: ₹7,522,767.52
+Region: NORTH | Total Sales: ₹7,181,095.63

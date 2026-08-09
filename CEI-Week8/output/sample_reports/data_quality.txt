@@ -1,0 +1,5 @@
+===== DATA QUALITY SUMMARY =====
+Total Orders: 1000
+Orders Without Items: 52
+Orders Without Customer ID: 47
+Orders With Invalid Customer ID: 0
